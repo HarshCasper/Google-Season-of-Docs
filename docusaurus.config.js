@@ -4,8 +4,8 @@ module.exports = {
   tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
@@ -33,30 +33,18 @@ module.exports = {
     },
     footer: {
       style: 'dark',
+      logo: {
+        alt: "Google Season of Docs Logo",
+        src: "https://developers.google.com/season-of-docs/images/logo/SeasonofDocs_Icon_WhiteYellow_300ppi.png",
+        href: "https://developers.google.com/season-of-docs",
+      },
       links: [
         {
-          title: 'Docs',
+          title: 'Project Tracker',
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              to: '/',
             },
           ],
         },
@@ -74,7 +62,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Harsh Bardhan Mishra`,
     },
   },
   presets: [
@@ -82,16 +70,15 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/HarshCasper/Google-Season-of-Docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/HarshCasper/Google-Season-of-Docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
