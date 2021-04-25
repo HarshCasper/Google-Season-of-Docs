@@ -1,31 +1,30 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Google Season of Docs',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
+  favicon: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/writing-hand_270d.png',
+  projectName: 'Google-Season-of-Docs', 
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Google Season of Docs 2021',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'Google Season of Docs Logo',
+        src: 'https://developers.google.com/season-of-docs/images/logo/SeasonofDocs_Icon_Grey_300ppi.png',
+        srcDark: 'https://developers.google.com/season-of-docs/images/logo/SeasonofDocs_Icon_WhiteYellow_300ppi.png'
       },
       items: [
         {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Tracker',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/HarshCasper/Google-Season-of-Docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -33,30 +32,18 @@ module.exports = {
     },
     footer: {
       style: 'dark',
+      logo: {
+        alt: "Google Season of Docs Logo",
+        src: "https://developers.google.com/season-of-docs/images/logo/SeasonofDocs_Icon_WhiteYellow_300ppi.png",
+        href: "https://developers.google.com/season-of-docs",
+      },
       links: [
         {
-          title: 'Docs',
+          title: 'Project Tracker',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Tracker',
+              to: '/',
             },
           ],
         },
@@ -74,7 +61,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Harsh Bardhan Mishra`,
     },
   },
   presets: [
@@ -82,16 +69,15 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/HarshCasper/Google-Season-of-Docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/HarshCasper/Google-Season-of-Docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
