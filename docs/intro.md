@@ -3,7 +3,7 @@ sidebar_position: 1
 slug: /
 ---
 
-# Tutorial Intro
+# What is Google Season of Docs?
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
