@@ -24,7 +24,6 @@ During Google Season of Docs 2021, I will be collaborating with [moja global](ht
 During my tenure, I will work with the TSC to canvas existing FLINT users, including the [Mullion Group (Australia)](https://www.linkedin.com/company/the-mullion-group/) and [NRCan (Canada)](https://www.nrcan.gc.ca/home). The [Full Lands Integration Tool (FLINT)](https://github.com/moja-global/flint) is an open-source modular C++ framework that combines data from different sources like satellite data or ground data to calculate greenhouse gas (GHG) emissions. FLINT integrates data from remote sensing, ground observations and other sources to estimate fluxes and stocks of greenhouse gasses in different pools consistent with the guidance from the Intergovernmental Panel on Climate Change (IPCC).
 
 My project break-down is as follows:  
-​
 -   Develop a content strategy for moja global:
 	 - Audit the user experience when navigating moja global projects and documentation.
 	 - Develop a style guide for moja global for a consistent documentation.
