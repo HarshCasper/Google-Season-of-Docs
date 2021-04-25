@@ -5,8 +5,6 @@ slug: /
 
 # Google Season of Docs 
 
-## Introduction
-
 [Google Season of Docs](https://developers.google.com/season-of-docs) is an annual program by Google, providing an opportunity for technical writers to contribute to open-source software. While a majority are mistaken about the notion of Open-Source to be exclusive to developers, there are a myriad of tasks that revolve around documentation, UI/UX and more. Through Google Season of Docs, technical writers get an opportunity to develop high-quality documentation that revolves around end-users and developers who would like to utilize the software for a better purpose. 
 
 ## History 
